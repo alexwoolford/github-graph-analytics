@@ -1,0 +1,14 @@
+name: github-graph-analytics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.3  # Matches Databricks Runtime 16.4
+  - pip
+  - pip:
+      - neo4j>=5.0.0
+      - graphdatascience>=1.15.0
+      - python-dotenv>=1.0.0
+      - pandas>=2.0.0
+      - jupyter>=1.0.0
+      - ipykernel>=6.0.0
